@@ -63,6 +63,8 @@ THEN I am taken to the corresponding section of the README
 
 URL to the GitHub repository: https://github.com/arundvp/READMEGen2.0
 
+sample README.md file for a project repository generated: https://github.com/arundvp/READMEGen2.0/blob/main/Develop/README.md
+
 Walkthrough video demonstrating the functionality of the application: https://drive.google.com/file/d/1_XWElJzFMN1gPeo1WoTxDZExQAHNfFSg/view
 
 ## Sample Screen Shot: 
