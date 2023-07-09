@@ -86,57 +86,52 @@ function generateMarkdown(data) {
   - [Contribution Guidelines](#contribution-guidelines)
   - [Test Instructions](#test-instructions)
   - [License](#license)
-  - [Credits](#credits)
-  - [Badges](#badges)
-  - [Features](#features)
   - [How to Contribute](#how-to-contribute)
-  - [Tests](#tests)
   - [Deployed Link](#deployed-link)
   - [Questions](#questions)
-  ## Installation
+  ## Installation <a name="installation"></a>
 
   ${data.installation}
   
-  ## Usage
+  ## Usage <a name="usage"></a>
   
   ${data.usage}
   
-  ## Contribution Guidelines
+  ## Contribution Guidelines <a name="contribution-guidelines"></a>
   
   ${data.contribution}
   
-  ## Test Instructions
+  ## Test Instructions <a name="test-instructions"></a>
   
   ${data.test}
   
-  ## License
+  ## License <a name="license"></a>
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
   
-  ## Credits
+  ## Credits <a name="credits"></a>
   
   ${data.credits}
   
-  ## Badges
+  ## Badges <a name="badges"></a>
   
   ${data.badges}
   
-  ## Features
+  ## Features <a name="features"></a>
   
   ${data.features}
   
-  ## How to Contribute
+  ## How to Contribute <a name="how-to-contribute"></a>
   ${data.howToContribute}
-  
-  ## Tests
-  
-  ${data.tests}
-  
-  ## Deployed Link
+ 
+  ## Deployed Link <a name="deployed-link"></a>
   ${data.deployedLink}
   
-  ## Questions
-  If you have any questions, please contact me at ${data.email}. My GitHub profile is [${data.github}](https://github.com/${data.github}).
+  ## Questions <a name="questions"></a>
+  If you have any questions, please contact me at ${data.email}. 
+  
+  My GitHub profile is [${data.github}](https://github.com/${data.github}).
+
 `;
 }
 

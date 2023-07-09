@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const marked = require('marked');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const path = require('path');
 
@@ -45,30 +44,10 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'credits',
-        message:'Please provide credits for your project.',
-    },
-    {
-        type: 'input',
-        name: 'badges',
-        message:'Please provide badges for your project.',
-    },  
-    {
-        type: 'input',
-        name: 'features',
-        message:'Please provide features for your project.',
-    },
-    {
-        type: 'input',
         name: 'howToContribute',
         message:'Please provide how to contribute information for your project.',
 
     },
-    {
-        type: 'input',
-        name: 'tests',
-        message:'Please provide tests for your project.',
-   },
    {
         type: 'input',
         name: 'deployedLink',
@@ -90,31 +69,12 @@ const questions = [
         type: 'input',
         name: 'email',
         message:'Please provide your email address.',
-    },
-    {
-        type: 'input',
-        name: 'name',
-        message:'Please provide your full name.',
-    },
-    {
-        type: 'input',
-        name: 'year',
-        message:'Please provide the current year.',
     }
 ];
 
-const licenseBadge = {
-    'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-    'Apache': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-    'GPL': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-    'BSD': '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)',
-    'None': '',
-}
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-    
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);  
 }
 
 // TODO: Create a function to initialize app
