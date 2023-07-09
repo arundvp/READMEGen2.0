@@ -7,14 +7,14 @@ When creating an open source project on GitHub, it’s important to have a high-
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
 
-## User Story
+## User Story:
 
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 
 
-## Summary of the Code 
+## Summary of the Code:
 
 The code provides several functions to generate a README.md file based on user input:
 
@@ -59,12 +59,12 @@ THEN I am taken to the corresponding section of the README
 
 5. Pushed the code the repository READMEGen2.0
 
-
-
-
-## Links
+## Links:
 
 URL to the GitHub repository: https://github.com/arundvp/READMEGen2.0
-Walkthrough video demonstrating the functionality of the application : https://drive.google.com/file/d/1_XWElJzFMN1gPeo1WoTxDZExQAHNfFSg/view
+
+Walkthrough video demonstrating the functionality of the application: https://drive.google.com/file/d/1_XWElJzFMN1gPeo1WoTxDZExQAHNfFSg/view
+
+## Sample Screen Shot: 
 
 ![Screenshot for the webpage](app-img.png)
