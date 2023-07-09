@@ -109,18 +109,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
   
-  ## Credits <a name="credits"></a>
-  
-  ${data.credits}
-  
-  ## Badges <a name="badges"></a>
-  
-  ${data.badges}
-  
-  ## Features <a name="features"></a>
-  
-  ${data.features}
-  
+ 
   ## How to Contribute <a name="how-to-contribute"></a>
   ${data.howToContribute}
  

@@ -17,11 +17,11 @@
   
   ## Usage <a name="usage"></a>
   
-  AI, ML, Multi-Cloud 
+  AI, ML, Multi-Cloud
   
   ## Contribution Guidelines <a name="contribution-guidelines"></a>
   
-  Open Source, Commercial 
+  Open Source, Commercial
   
   ## Test Instructions <a name="test-instructions"></a>
   
@@ -31,18 +31,7 @@
   This project is licensed under the MIT license.
   https://opensource.org/licenses/MIT
   
-  ## Credits <a name="credits"></a>
-  
-  undefined
-  
-  ## Badges <a name="badges"></a>
-  
-  undefined
-  
-  ## Features <a name="features"></a>
-  
-  undefined
-  
+ 
   ## How to Contribute <a name="how-to-contribute"></a>
   Reach out to me!
  
